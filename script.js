@@ -1,6 +1,6 @@
 
-const foodData = require('./data.json');
-
+// const foodData = require('./data.json');
+import foodData from './data.json' assert { type: 'json' };
 function getAllFoodData() {
   console.log("All food items");
   return foodData;
